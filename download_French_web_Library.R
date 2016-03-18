@@ -40,7 +40,7 @@ ff.url.TXT <- paste(ff.url.partial, url_TXT, sep="/")
 
 #example like "ftp/F-F_Research_Data_5_Factors_2x3_daily_CSV.zip"
 
-#### setting Download the data URL ####
+#### setting Download data URL ####
 
 destfile.ZIP<-do.call(rbind,strsplit(ff.url.ZIP,split="ftp/"))[,2]
 destfile.CSV<-do.call(rbind,strsplit(ff.url.CSV,split="ftp/"))[,2]
